@@ -1,4 +1,4 @@
-import db from '../components/utils/connectFirebase/connectFirebase';
+import db from '../utils/connectFirebase/connectFirebase';
 
 export const getUserData = (name) => {
     return db.collection("users")
