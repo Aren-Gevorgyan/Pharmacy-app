@@ -1,0 +1,42 @@
+.data {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.data label,
+.data label input {
+    width: 99%;
+    display: block;
+}
+
+.data label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(49, 49, 49);
+}
+
+.data label input {
+    height: 20px;
+    font-size: 10px;
+    margin-top: 4px;
+    border: 1px solid rgb(206, 201, 201);
+    border-radius: 2px;
+    outline: none;
+}
+
+.data label input:focus {
+    border: 1px solid green;
+}
+
+.data button {
+    width: 99%;
+    height: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: green;
+    border-radius: 2px;
+}

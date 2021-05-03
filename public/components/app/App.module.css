@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.pages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
