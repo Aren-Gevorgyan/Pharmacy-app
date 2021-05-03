@@ -1,0 +1,47 @@
+.searchContainer {
+    width: 40%;
+    height: 18px;
+    margin-right: 20px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.searchContainer label {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    height: 18px;
+}
+
+.search {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 18px;
+    font-size: 8px;
+}
+
+.searchButton {
+    width: 22%;
+    height: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 78%;
+    background-color: transparent;
+}
+
+.searchIcon {
+    flex: 1;
+    margin: 0;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(34, 33, 33);
+    background-color: #fdfdfa;
+}
