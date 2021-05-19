@@ -6,19 +6,6 @@ import RegisterForm from './registrationForm/RegistrationForm';
 
 const ReduxForm = reduxForm({form: "registration"})(RegisterForm);
 
-const Registration = () => {
-    
-    const register = (value) => {
-        setData(value);
-    }
-
-    return (
-        <div className={style.container}>
-            <ReduxForm onSubmit={register}/>
-        </div>
-    )
-}
-
 function setData(value){
     //create data
     const user = {
@@ -37,5 +24,18 @@ function setData(value){
     //add data firebase
     setUserData(user);
 }
+
+const Registration = () => {
+    const register = (value) => {
+        setData(value);
+    }
+
+    return (
+        <div className={style.container}>
+            <ReduxForm onSubmit={register}/>
+        </div>
+    )
+}
+
 
 export default Registration;
